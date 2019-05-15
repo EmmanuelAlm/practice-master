@@ -1,0 +1,8 @@
+piechart.title = 'Favourite Pets'
+piechart.add('Dog', 6)
+piechart.add('Artic Fox', 4)
+piechart.add('Coyote', 3)
+piechart.add('Liger', 6)
+piechart.add('Lynx', 2)
+piechart.add('Penguin', 5)
+piechart.add('Skunk', 1)

@@ -1,0 +1,6 @@
+Dog 6
+Fox 4
+Coyote 3
+Liger 2
+Penguin 5
+skunk 1

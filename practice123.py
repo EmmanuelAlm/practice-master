@@ -1,0 +1,20 @@
+from turtle import *
+speed(0)
+penup()
+goto(-140, 140)
+pendown()
+
+for step in range (5):
+    write(step, align ='center')
+    right(90)
+    forward(10)
+    pendown()
+    forward(150)
+    pendown()
+    forward(160)
+    penup()
+    backward(160)
+    pendown()
+    backward(160)
+    left(90)
+    forward(20)

@@ -1,0 +1,5 @@
+Soccer 10
+Baseball 12
+Football 6
+Tennis 3
+Basketball 7

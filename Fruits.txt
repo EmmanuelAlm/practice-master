@@ -1,0 +1,6 @@
+Blueberries: 4
+Strawberries: 3
+Mango: 6
+Apple: 2
+Orange: 5
+Banana: 1
