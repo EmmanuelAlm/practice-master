@@ -13,7 +13,7 @@ class bcolors:
 
 
 class Person:
-    def __init__(self, hp, mp, atk, df, magic):
+    def __init__(self, hp, mp, atk, df, magic, items):
         self.maxhp = hp
         self.hp = hp
         self.maxmp = mp
@@ -22,6 +22,7 @@ class Person:
         self.atkh = atk + 10
         self.df = df
         self.magic = magic
+        self.items = items
         self.actions = ["Attack, ", "Magic"]
 
     def generate_damage(self):
@@ -72,3 +73,7 @@ class Person:
         for spell in self.magic:
             print(str(i) + ":", spell["name"], "(cost:", str(spell) + ")")
             i +=  1
+
+    def choose_items(self):
+         i = 1
+         
